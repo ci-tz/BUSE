@@ -7,6 +7,6 @@ filename=/dev/nbd0
 rw=randwrite
 iodepth=32
 bs=4k
-numjobs=4
+numjobs=1
 time_based
 runtime=30
