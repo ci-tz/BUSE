@@ -1,0 +1,12 @@
+
+[rand-write]
+group_reporting=1
+ioengine=libaio
+direct=1
+filename=/dev/nbd0
+rw=randwrite
+iodepth=32
+bs=4k
+numjobs=4
+time_based
+runtime=30
